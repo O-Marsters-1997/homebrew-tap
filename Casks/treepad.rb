@@ -4,26 +4,26 @@ cask "treepad" do
 
   on_macos do
     on_intel do
-      sha256 "e62d427a9fb8088d8dc5302980363c39b90fa4d821a8aea97feb4382a466af9c"
-      url "https://github.com/O-Marsters-1997/treepad/releases/download/#{version}/treepad_#{version}_darwin_amd64.tar.gz",
+      sha256 "2f7752d32f4b0c3387de33477d6102a390fd1d2f0cd62d7fed931f5a5ed824a2"
+      url "https://github.com/O-Marsters-1997/treepad/releases/download/v#{version}/treepad_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/O-Marsters-1997/treepad/"
     end
     on_arm do
-      sha256 "0b393cf3fd4f9b25792f76351edde03e142e797b8e5871eec6310aab64311229"
-      url "https://github.com/O-Marsters-1997/treepad/releases/download/#{version}/treepad_#{version}_darwin_arm64.tar.gz",
+      sha256 "9e89bb2f5e2680b097351e1361ca04f752d307aaa0bc63cea051b5da371ed512"
+      url "https://github.com/O-Marsters-1997/treepad/releases/download/v#{version}/treepad_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/O-Marsters-1997/treepad/"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "766cc3c119a33a1a893c6232b5068453e8694c37dee431c1a997f41fae1ef5c6"
-      url "https://github.com/O-Marsters-1997/treepad/releases/download/#{version}/treepad_#{version}_linux_amd64.tar.gz",
+      sha256 "9453c74fa1fa9facc53f100f698d3d63596923651e4452bc340a40e38273a5b2"
+      url "https://github.com/O-Marsters-1997/treepad/releases/download/v#{version}/treepad_#{version}_linux_amd64.tar.gz",
         verified: "github.com/O-Marsters-1997/treepad/"
     end
     on_arm do
-      sha256 "9963b496aa6dafa68da4cc080e631b383c04314c4421e111090d15e60444e9c2"
-      url "https://github.com/O-Marsters-1997/treepad/releases/download/#{version}/treepad_#{version}_linux_arm64.tar.gz",
+      sha256 "a5191b80f45c39095ca5aa519afade47b5b89ce097e251bc39b9b8444c4c7ca9"
+      url "https://github.com/O-Marsters-1997/treepad/releases/download/v#{version}/treepad_#{version}_linux_arm64.tar.gz",
         verified: "github.com/O-Marsters-1997/treepad/"
     end
   end
